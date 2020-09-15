@@ -3,10 +3,13 @@ body{
   padding:10px;
   text-align:center;
   line-height: 1.5;
+  height:600px;
+  background-image: linear-gradient(135deg, #b7b7a4, #b7e4c7, #b7b7a4, #b7e4c7);
 }
 
 h1{
   font-family: Verdana, Geneva, sans-serif;
+  text-shadow: 1px 1px 2px rgb(100,100,100)
 }
 
 form{
@@ -31,8 +34,14 @@ form{
 }
 
 .mine{
-  border-left: 5px solid rgb(200,200,200);
+  border-left: 5px solid #a5a58d;
   padding:5px 10px;
+}
+
+.his{
+  border-left: 5px solid #a5a58d;
+  padding:5px 10px;
+  margin-left:100px;
 }
 
 #btn-ask{
